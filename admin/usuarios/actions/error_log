@@ -1,0 +1,8 @@
+[26-Jun-2022 17:16:41 America/Recife] PHP Fatal error:  Uncaught Error: Call to a member function destroy() on null in /home/roletaautomatiza/public_html/admin/usuarios/actions/excluir.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/roletaautomatiza/public_html/admin/usuarios/actions/excluir.php on line 20
+[29-Jun-2022 00:19:47 America/Recife] PHP Fatal error:  Uncaught Error: Call to a member function destroy() on null in /home/roletaautomatiza/public_html/admin/usuarios/actions/excluir.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/roletaautomatiza/public_html/admin/usuarios/actions/excluir.php on line 20

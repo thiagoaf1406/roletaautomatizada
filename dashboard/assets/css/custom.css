@@ -1,0 +1,77 @@
+.botao-editar{ float:right; text-align:right; padding: 0 10px; }
+.botao-excluir{ float:right; text-align:left; padding: 0 10px; }
+.botao-editar button{ padding: 7px; }
+.botao-excluir button{ padding: 7px; }
+.text-right{ text-align:right !important; }
+table .scale-right{ float:right; }
+#form-lead, #form-assinante, #form-categoria, #form-pergunta, #form-descritivo, #form-analise{ width:100%; }
+.badge {
+    white-space: normal;
+}
+.accordion-variacao>.card>.card-header>.card-title>a {
+    padding: 15px 25px;
+    display: block;
+    color: #2a2a2a;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    width: 60%;
+    float: left;
+}
+.accordion-variacao>.card .card-body {
+    padding-top: 1rem;
+    background: #ffcc99;
+}
+.accordion-variacao .d-flex{ padding-top:10px; }
+.accordion-variacao .d-flex .switch{ padding-top:5px; padding-left:15px; }
+.accordion-variacao table td{ color: black !important; font-weight:bold; }
+.accordion-variacao .card-header {
+    padding: 0px 1.5rem;
+    position: relative;
+    background-color: #fffae6;
+    border: 1px solid #e6b800;
+    min-height: 3rem;
+    border-radius:3px;
+}
+.accordion-variacao>.card .card-header {
+    margin-bottom: 0px; 
+}
+.accordion-variacao .btn-primary{ }
+.accordion-variacao .btn-warning{ }
+.accordion-variacao .btn-danger{  margin-left:20px; }
+.preview-imagem{ width:30%; text-align:center; float:left; }
+.preview-imagem img{ width:100%; }
+.upload-imagem{ width:70%; text-align:center; float:left; }
+.imagem-label{ width:100%; text-align:center; }
+.botao-mais{
+position: absolute;
+right: 1.5%;
+top: 0;
+}
+
+.botao-lida{
+    position: relative;
+    top: 25%;
+    background: transparent;
+    border: none;
+}
+.div-bt-lida{
+    width:10%;
+    text-align:right;
+}
+.contagem{ font-size:11px; color:red; }
+.notificacoes p{ white-space: normal; }
+.alerta-ok, .alerta-erro{ display:none; position:fixed; width:250px; top:20vh; right:0; }
+
+@media only screen and (min-width:600px){ 
+    .table-responsive {
+        overflow-x: visible !important;
+    }
+    .alert-notificacao{
+        width: 18%;
+        position: fixed;
+        top: 11%;
+        right: 2%;
+        z-index: 9999;
+    }
+}
